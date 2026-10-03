@@ -1,0 +1,12 @@
+.carousel { min-width: 0; }
+.controls { display: flex; justify-content: flex-end; align-items: center; gap: 8px; margin-bottom: 16px; }
+.controls button { min-width: 44px; min-height: 44px; padding: 8px 12px; border: 1px solid #1b3b2b20; border-radius: 999px; color: var(--color-tcn-green-dark); font-size: 12px; cursor: pointer; }
+.controls button:hover { background: var(--color-tcn-green-light); }
+.viewport { overflow: hidden; }
+.track { display: flex; width: 100%; margin: 0; padding: 0; list-style: none; }
+.item { flex: 0 0 100%; min-width: 0; padding: 8px 12px 16px; text-align: center; }
+.portrait { position: relative; width: 80px; height: 80px; overflow: hidden; margin-inline: auto; border-radius: 50%; background: var(--color-tcn-green-light); }
+@media (min-width: 480px) { .item { flex-basis: 50%; } }
+@media (min-width: 768px) { .item { flex-basis: calc(100% / 3); } }
+@media (min-width: 1024px) { .item { flex-basis: 20%; } }
+@media (prefers-reduced-motion: reduce) { .track { transition: none !important; } }

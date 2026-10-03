@@ -1,0 +1,11 @@
+.root { position: fixed; right: 20px; bottom: max(20px, env(safe-area-inset-bottom)); z-index: 40; color: var(--color-tcn-green-dark); transition: opacity 150ms; }
+.muted { opacity: .55; }
+.root:hover, .root:focus-within { opacity: 1; }
+.toggle { display: flex; align-items: center; justify-content: center; width: 48px; height: 48px; margin-left: auto; border-radius: 50%; background: var(--color-tcn-green-dark); color: white; box-shadow: 0 3px 14px #1b3b2b18; font-size: 28px; cursor: pointer; }
+.links { display: none; position: absolute; right: 0; bottom: 60px; width: 180px; gap: 8px; }
+.links.open { display: grid; }
+.links a { display: flex; align-items: center; gap: 9px; min-height: 44px; padding: 10px 14px; border: 1px solid #1b3b2b20; border-radius: 999px; background: var(--color-tcn-ivory); box-shadow: 0 2px 10px #1b3b2b0a; font-size: 12px; font-weight: 600; line-height: 1.5; }
+.links a:hover { background: var(--color-tcn-green-light); border-color: var(--color-tcn-brown); }
+.links svg { flex-shrink: 0; }
+@media (min-width: 1024px) { .toggle { display: none; } .links { display: grid; position: static; } }
+@media (prefers-reduced-motion: reduce) { .root { transition: none; } }
