@@ -14,12 +14,11 @@ export default function AboutSection() {
         <div className="order-2 mx-auto w-full lg:order-1">
           <div className="about-placeholder">
             <Image
-              src="/images/about/tcn.jpg"
+              src="/images/about/tcn-about.webp"
               alt="Các thành viên TCN trong một buổi gặp gỡ"
               fill
-              sizes="(min-width: 1280px) 487px, (min-width: 1024px) 42vw, 100vw"
-              className="rounded-[24px] object-cover"
-              style={{ objectPosition: "50% 65%" }}
+              sizes="(min-width: 1280px) 487px, (min-width: 1024px) calc((100vw - 112px) * 5 / 12), (min-width: 640px) calc(100vw - 48px), calc(100vw - 32px)"
+              className="rounded-[24px] object-cover object-[50%_40%] lg:object-[50%_45%]"
             />
 
             <span className="about-label">

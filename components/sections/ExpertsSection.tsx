@@ -27,7 +27,7 @@ export const featuredExperts: FeaturedExpert[] = [
     name: "Đỗ Tiến Trung (Mr. Thấu Hiểu)",
     role: "Trainer · Relationship Coach · Chuyên gia Số học ứng dụng (Numerology)",
     description: "Hơn 15 năm kinh nghiệm trong đào tạo, coaching và phát triển con người. Thế mạnh nổi bật về mối quan hệ, Leadership và đào tạo chuyên môn; ứng dụng Numerology trong thấu hiểu bản thân, thấu hiểu con người và nâng cao chất lượng các mối quan hệ.",
-    image: "/images/experts/do-tien-trung.jpg",
+    image: "/images/experts/do-tien-trung.webp",
     specialties: ["Relationship", "Leadership", "Đào tạo chuyên môn", "Numerology"],
     href: null,
   },
@@ -36,7 +36,7 @@ export const featuredExperts: FeaturedExpert[] = [
     name: "Trần Quỳnh Chi",
     role: "Trainer · Transformation Coach · Chuyên gia Số học ứng dụng (Numerology)",
     description: "Có nhiều năm kinh nghiệm trong đào tạo, coaching và phát triển con người. Thế mạnh nổi bật về tâm thức, phát triển nội tâm và xây dựng môi trường chuyển hóa; đồng hành trong quá trình nhận thức, thực hành và duy trì sự thay đổi.",
-    image: "/images/experts/tran-quynh-chi.jpg",
+    image: "/images/experts/tran-quynh-chi.webp",
     specialties: ["Tâm thức", "Môi trường chuyển hóa", "Coaching", "Numerology"],
     href: null,
   },
@@ -45,7 +45,7 @@ export const featuredExperts: FeaturedExpert[] = [
     name: "Nguyễn Thị Phương Thảo",
     role: "Trainer · Parent Coach · Chuyên gia Số học ứng dụng (Numerology)",
     description: "Gần 20 năm kinh nghiệm trong lãnh đạo, điều hành và phát triển con người. Thế mạnh nổi bật về vận hành, tổ chức và triển khai; đồng thời chuyên sâu trong ứng dụng Numerology, KID Talent Map, Relationship Map và Parent Coaching.",
-    image: "/images/experts/phuong-thao.jpg",
+    image: "/images/experts/phuong-thao.webp",
     specialties: ["Vận hành", "Tổ chức", "KID Talent Map", "Numerology"],
     href: null,
   },
@@ -59,7 +59,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Hà Thị Hương",
     "role": "Định hướng sự nghiệp · Kinh doanh",
     "image": {
-      "src": "/images/experts/network/ha-thi-huong.jpg",
+      "src": "/images/experts/network/ha-thi-huong.webp",
       "alt": "Hà Thị Hương"
     }
   },
@@ -68,7 +68,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Hoa Bông",
     "role": "Hướng nghiệp · Numerology",
     "image": {
-      "src": "/images/experts/network/hoa-bong.jpg",
+      "src": "/images/experts/network/hoa-bong.webp",
       "alt": "Hoa Bông"
     }
   },
@@ -77,7 +77,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Khánh Chi",
     "role": "Phát triển bản thân",
     "image": {
-      "src": "/images/experts/network/khanh-chi.jpg",
+      "src": "/images/experts/network/khanh-chi.webp",
       "alt": "Khánh Chi"
     }
   },
@@ -86,7 +86,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Lê Thanh Huyền",
     "role": "Thấu hiểu bản thân & con cái · Numerology",
     "image": {
-      "src": "/images/experts/network/le-thanh-huyen.jpg",
+      "src": "/images/experts/network/le-thanh-huyen.webp",
       "alt": "Lê Thanh Huyền"
     }
   },
@@ -95,7 +95,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Mai Hà Linh",
     "role": "Tâm thức · NLP · Cảm xúc",
     "image": {
-      "src": "/images/experts/network/mai-ha-linh.jpg",
+      "src": "/images/experts/network/mai-ha-linh.webp",
       "alt": "Mai Hà Linh"
     }
   },
@@ -104,7 +104,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Thu Hương",
     "role": "Phát triển bản thân · Nuôi dạy con",
     "image": {
-      "src": "/images/experts/network/thu-huong.jpg",
+      "src": "/images/experts/network/thu-huong.webp",
       "alt": "Thu Hương"
     }
   },
@@ -113,7 +113,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Trần Hồng Nhung",
     "role": "Tâm thức · Chữa lành",
     "image": {
-      "src": "/images/experts/network/tran-hong-nhung.jpg",
+      "src": "/images/experts/network/tran-hong-nhung.webp",
       "alt": "Trần Hồng Nhung"
     }
   },
@@ -122,7 +122,7 @@ export const expertNetwork: NetworkExpert[] = [
     "name": "Vũ Thị Hiền",
     "role": "Mối quan hệ · Phát triển bản thân",
     "image": {
-      "src": "/images/experts/network/vu-thi-hien.jpg",
+      "src": "/images/experts/network/vu-thi-hien.webp",
       "alt": "Vũ Thị Hiền"
     }
   }
@@ -132,7 +132,7 @@ function ExpertPortrait({ expert, compact = false }: { expert: NetworkExpert; co
   return (
     <div className={compact ? "relative size-14 shrink-0 overflow-hidden rounded-full bg-tcn-green-light" : "relative aspect-square w-full max-w-[300px] overflow-hidden rounded-xl bg-tcn-beige/55"}>
       {expert.image ? (
-        <Image src={expert.image.src} alt={expert.image.alt} fill sizes={compact ? "56px" : "(min-width: 640px) 300px, min(300px, 100vw)"} className="object-cover" style={{ objectPosition: expert.image.objectPosition ?? "50% 30%" }} />
+        <Image src={expert.image.src} alt={expert.image.alt} fill sizes={compact ? "56px" : "(min-width: 332px) 300px, calc(100vw - 32px)"} className="object-cover" style={{ objectPosition: expert.image.objectPosition ?? "50% 30%" }} />
       ) : (
         <div className="flex h-full flex-col items-center justify-center gap-4 px-2 text-center text-tcn-green-dark/60">
           <span aria-hidden="true" className={compact ? "font-heading text-lg" : "font-heading text-5xl opacity-40"}>{expert.id.split("-").at(-1)?.toUpperCase()}</span>

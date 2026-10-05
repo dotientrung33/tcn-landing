@@ -1,0 +1,166 @@
+{
+  "uniqueImagePaths": 53,
+  "missing": [],
+  "paths": {
+    "/images/brand/tcn-logo.svg": [
+      "components\\Footer.tsx",
+      "components\\Header.tsx"
+    ],
+    "/images/about/tcn-about.webp": [
+      "components\\sections\\AboutSection.tsx"
+    ],
+    "/images/activities/1.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/2.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/3.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/4.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/5.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/6.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/7.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/8.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/9.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/10.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/11.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/12.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/13.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/14.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/15.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/16.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/activities/17.webp": [
+      "components\\sections\\ActivitySection.tsx"
+    ],
+    "/images/community/tram-binh-an.webp": [
+      "components\\sections\\CommunitySection.tsx"
+    ],
+    "/images/community/dong-hanh-cung-con.webp": [
+      "components\\sections\\CommunitySection.tsx"
+    ],
+    "/images/community/so-hoc-ung-dung (2).optimized.webp": [
+      "components\\sections\\CommunitySection.tsx"
+    ],
+    "/images/experts/do-tien-trung.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/tran-quynh-chi.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/phuong-thao.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/ha-thi-huong.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/hoa-bong.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/khanh-chi.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/le-thanh-huyen.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/mai-ha-linh.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/thu-huong.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/tran-hong-nhung.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/experts/network/vu-thi-hien.webp": [
+      "components\\sections\\ExpertsSection.tsx"
+    ],
+    "/images/hero/hero.webp": [
+      "components\\sections\\HeroSection.tsx"
+    ],
+    "/images/partners/acb.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/aia.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/gln.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/heu.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/mbbank.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/msb.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/vcb.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/partners/vpbank.png": [
+      "components\\sections\\PartnersSection.tsx"
+    ],
+    "/images/maps/map-for-success.webp": [
+      "components\\sections\\SupportToolsSection.tsx"
+    ],
+    "/images/maps/relationship-map.webp": [
+      "components\\sections\\SupportToolsSection.tsx"
+    ],
+    "/images/maps/career-map.webp": [
+      "components\\sections\\SupportToolsSection.tsx"
+    ],
+    "/images/maps/kid-talent-map.webp": [
+      "components\\sections\\SupportToolsSection.tsx"
+    ],
+    "/images/testimonials/khanh-chi.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/nguyen-thu-ha.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/vu-loan.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/jennifer-pham.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/mai-phan.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/le-kieu-nhung.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ],
+    "/images/testimonials/tra-my.webp": [
+      "components\\sections\\TestimonialsSection.tsx"
+    ]
+  }
+}

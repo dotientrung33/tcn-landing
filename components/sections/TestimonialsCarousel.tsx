@@ -75,7 +75,7 @@ export default function TestimonialsCarousel({ items }: { items: Testimonial[] }
               <div key={`${item.id}-${index}`} className={styles.slide} aria-hidden={!active} inert={!active}>
                 <figure className={styles.card}>
                   <div className={styles.avatar}>
-                    {item.image && <Image src={item.image} alt={item.name} fill sizes={item.id === "jennifer-pham" ? "200px" : "80px"} className="object-cover object-top" style={item.id === "jennifer-pham" ? { transform: "scale(2.5)", transformOrigin: "62% 45%" } : undefined} />}
+                    {item.image && <Image src={item.image} alt={item.name} fill sizes="72px" className="object-cover" style={{ objectPosition: item.imagePosition ?? "50% 25%" }} />}
                   </div>
                   <span className={styles.quoteMark} aria-hidden="true">”</span>
                   <figcaption>

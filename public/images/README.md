@@ -55,21 +55,23 @@ Khi dùng trong giao diện Next.js, đường dẫn bắt đầu bằng `/image
 
 Ví dụ: `public/images/experts/do-tien-trung.jpg` → chạy `npm run optimize-images` → tạo `public/images/experts/do-tien-trung.webp`. Ảnh JPG gốc vẫn được giữ nguyên.
 
-Script quét đệ quy JPG/JPEG/PNG, kể cả phần mở rộng viết hoa; bỏ qua SVG, WebP, AVIF, README và symlink. Output nằm cùng thư mục với nguồn. WebP đã tồn tại chỉ được tạo lại khi nguồn có thời gian sửa đổi mới hơn; thay đổi cấu hình không tự kích hoạt xử lý lại.
+Script quét đệ quy JPG/JPEG/PNG và WebP nguồn, kể cả phần mở rộng viết hoa; bỏ qua SVG, AVIF, README, symlink, thư mục logo `brand/` và `partners/`. Output nằm cùng thư mục với nguồn. JPG/PNG tạo `.webp`; WebP nguồn tạo `.optimized.webp`, không ghi đè nguồn. WebP có JPG/PNG cùng tên được coi là output và không xử lý tiếp. Output được tạo lại khi nguồn hoặc script có thời gian sửa đổi mới hơn.
 
 | Folder | Chiều rộng tối đa | WebP quality |
 | --- | --- | --- |
-| `hero/` | 1920px | 82 |
-| `about/`, `programs/`, `activities/` | 1600px | 80 |
-| `experts/` | 1200px | 82 |
+| `hero/` | 1280px | 84 |
+| `about/`, `programs/` | 1600px | 80 |
+| `activities/` | Trong khung 1920 × 1920px | 82 |
+| `experts/` | 720px | 86 |
+| `experts/network/` | Trong khung 320 × 480px | 86 |
+| `maps/` | 480px | 88 |
 | `community/` | 1200px | 80 |
-| `testimonials/` | 800px | 80 |
-| `partners/` | 1000px | 85 |
-| `brand/` | Giữ kích thước | Lossless, giữ transparency |
+| `testimonials/` | Trong khung 480 × 720px | 86 |
+| `brand/`, `partners/` | Giữ nguyên file nguồn | Không chuyển đổi |
 | Ảnh ở gốc hoặc folder khác | 1600px | 80 |
 
-Folder cấp đầu tiên dưới `public/images/` quyết định quy tắc cho cả các thư mục con. Ảnh không bị upscale hoặc crop; giữ aspect ratio và tự xoay theo EXIF trước khi xuất. Output không giữ metadata EXIF/GPS; file nguồn không bị sửa, đổi tên hoặc xóa.
+Quy tắc thư mục cụ thể được ưu tiên, sau đó đến folder cấp đầu tiên dưới `public/images/`. Kích thước phù hợp ảnh Hero khoảng 487–560px, About toàn chiều rộng trên tablet, ảnh hoạt động khoảng 715px desktop/toàn chiều rộng tablet, chân dung chuyên gia tối đa 300px, avatar mạng lưới 80px, avatar khách hàng 72px và bìa Map 125–155px. Ảnh không bị upscale hoặc crop; giữ aspect ratio và tự xoay theo EXIF trước khi xuất. Output không giữ metadata EXIF/GPS; file nguồn không bị sửa, đổi tên hoặc xóa.
 
-Report hiển thị kích thước pixel, dung lượng trước/sau, số byte quy đổi KB/MB tiết kiệm và phần trăm giảm cho từng file. Tổng dung lượng và tỷ lệ giảm chỉ tính các file được optimize trong lần chạy hiện tại; file skipped được liệt kê riêng. Số âm nghĩa là WebP lớn hơn nguồn, điều này có thể xảy ra với ảnh nhỏ hoặc WebP lossless.
+Report hiển thị kích thước pixel, dung lượng trước/sau, số byte quy đổi KB/MB tiết kiệm và phần trăm giảm cho từng file. Tổng dung lượng và tỷ lệ giảm tính tất cả các cặp nguồn/output xử lý thành công, gồm file skipped. Đây là dung lượng asset tương ứng, không phải dung lượng tải trang thực tế qua `next/image`; giữ nguồn để backup khiến tổng dung lượng thư mục tăng. Số âm nghĩa là WebP lớn hơn nguồn.
 
 Không dùng cùng tên cơ sở cho nhiều nguồn trong một thư mục (ví dụ `anh.jpg` và `anh.png`), vì cả hai sẽ tạo `anh.webp`. Script báo lỗi và bỏ qua các nguồn trùng output; ảnh nhiều frame cũng được báo lỗi để tránh mất animation. Nếu có lỗi, script tiếp tục các file khác rồi kết thúc với mã lỗi khác 0.

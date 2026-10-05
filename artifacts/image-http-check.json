@@ -1,0 +1,320 @@
+[
+  {
+    "path": "/images/brand/tcn-logo.svg",
+    "status": 200,
+    "type": "image/svg+xml",
+    "bytes": 356033
+  },
+  {
+    "path": "/images/about/tcn-about.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 8868
+  },
+  {
+    "path": "/images/activities/1.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 17901
+  },
+  {
+    "path": "/images/activities/2.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 8960
+  },
+  {
+    "path": "/images/activities/3.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 11543
+  },
+  {
+    "path": "/images/activities/4.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9367
+  },
+  {
+    "path": "/images/activities/5.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 12769
+  },
+  {
+    "path": "/images/activities/6.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10731
+  },
+  {
+    "path": "/images/activities/7.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10708
+  },
+  {
+    "path": "/images/activities/8.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 14849
+  },
+  {
+    "path": "/images/activities/9.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 11438
+  },
+  {
+    "path": "/images/activities/10.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10614
+  },
+  {
+    "path": "/images/activities/11.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9387
+  },
+  {
+    "path": "/images/activities/12.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 15177
+  },
+  {
+    "path": "/images/activities/13.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9781
+  },
+  {
+    "path": "/images/activities/14.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9118
+  },
+  {
+    "path": "/images/activities/15.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 11907
+  },
+  {
+    "path": "/images/activities/16.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 17920
+  },
+  {
+    "path": "/images/activities/17.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9358
+  },
+  {
+    "path": "/images/community/tram-binh-an.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9841
+  },
+  {
+    "path": "/images/community/dong-hanh-cung-con.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9388
+  },
+  {
+    "path": "/images/community/so-hoc-ung-dung (2).optimized.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9808
+  },
+  {
+    "path": "/images/experts/do-tien-trung.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5235
+  },
+  {
+    "path": "/images/experts/tran-quynh-chi.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 4912
+  },
+  {
+    "path": "/images/experts/phuong-thao.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5731
+  },
+  {
+    "path": "/images/experts/network/ha-thi-huong.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 8850
+  },
+  {
+    "path": "/images/experts/network/hoa-bong.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9024
+  },
+  {
+    "path": "/images/experts/network/khanh-chi.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 15497
+  },
+  {
+    "path": "/images/experts/network/le-thanh-huyen.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 6348
+  },
+  {
+    "path": "/images/experts/network/mai-ha-linh.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5454
+  },
+  {
+    "path": "/images/experts/network/thu-huong.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 7377
+  },
+  {
+    "path": "/images/experts/network/tran-hong-nhung.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 7161
+  },
+  {
+    "path": "/images/experts/network/vu-thi-hien.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9904
+  },
+  {
+    "path": "/images/hero/hero.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5118
+  },
+  {
+    "path": "/images/partners/acb.png",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5161
+  },
+  {
+    "path": "/images/partners/aia.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 3970
+  },
+  {
+    "path": "/images/partners/gln.png",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 2448
+  },
+  {
+    "path": "/images/partners/heu.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 4608
+  },
+  {
+    "path": "/images/partners/mbbank.png",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 3394
+  },
+  {
+    "path": "/images/partners/msb.png",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 2724
+  },
+  {
+    "path": "/images/partners/vcb.png",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 3569
+  },
+  {
+    "path": "/images/partners/vpbank.png",
+    "status": 200,
+    "type": "image/png",
+    "bytes": 2393
+  },
+  {
+    "path": "/images/maps/map-for-success.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 13856
+  },
+  {
+    "path": "/images/maps/relationship-map.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 12141
+  },
+  {
+    "path": "/images/maps/career-map.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 13953
+  },
+  {
+    "path": "/images/maps/kid-talent-map.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 15682
+  },
+  {
+    "path": "/images/testimonials/khanh-chi.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 9438
+  },
+  {
+    "path": "/images/testimonials/nguyen-thu-ha.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10598
+  },
+  {
+    "path": "/images/testimonials/vu-loan.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 8401
+  },
+  {
+    "path": "/images/testimonials/jennifer-pham.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 11577
+  },
+  {
+    "path": "/images/testimonials/mai-phan.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10943
+  },
+  {
+    "path": "/images/testimonials/le-kieu-nhung.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 10148
+  },
+  {
+    "path": "/images/testimonials/tra-my.webp",
+    "status": 200,
+    "type": "image/jpeg",
+    "bytes": 5615
+  }
+]

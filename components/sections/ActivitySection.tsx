@@ -14,105 +14,111 @@ export type ActivityItem = {
 export const activities: ActivityItem[] = [
   {
     "id": "activity-1",
-    "image": "/images/activities/1.jpg",
+    "image": "/images/activities/1.webp",
     "title": "Khoảnh khắc hoạt động 01",
     "alt": "Hình ảnh hoạt động thực tế TCN 1"
   },
   {
     "id": "activity-2",
-    "image": "/images/activities/2.jpg",
+    "image": "/images/activities/2.webp",
     "title": "Khoảnh khắc hoạt động 02",
     "alt": "Hình ảnh hoạt động thực tế TCN 2"
   },
   {
     "id": "activity-3",
-    "image": "/images/activities/3.jpg",
+    "image": "/images/activities/3.webp",
     "title": "Khoảnh khắc hoạt động 03",
     "alt": "Hình ảnh hoạt động thực tế TCN 3"
   },
   {
     "id": "activity-4",
-    "image": "/images/activities/4.jpg",
+    "image": "/images/activities/4.webp",
     "title": "Khoảnh khắc hoạt động 04",
     "alt": "Hình ảnh hoạt động thực tế TCN 4"
   },
   {
     "id": "activity-5",
-    "image": "/images/activities/5.jpg",
+    "image": "/images/activities/5.webp",
     "title": "Khoảnh khắc hoạt động 05",
     "alt": "Hình ảnh hoạt động thực tế TCN 5"
   },
   {
     "id": "activity-6",
-    "image": "/images/activities/6.jpg",
+    "image": "/images/activities/6.webp",
     "title": "Khoảnh khắc hoạt động 06",
     "alt": "Hình ảnh hoạt động thực tế TCN 6"
   },
   {
     "id": "activity-7",
-    "image": "/images/activities/7.jpg",
+    "image": "/images/activities/7.webp",
     "title": "Khoảnh khắc hoạt động 07",
     "alt": "Hình ảnh hoạt động thực tế TCN 7"
   },
   {
     "id": "activity-8",
-    "image": "/images/activities/8.jpg",
+    "image": "/images/activities/8.webp",
     "title": "Khoảnh khắc hoạt động 08",
     "alt": "Hình ảnh hoạt động thực tế TCN 8"
   },
   {
     "id": "activity-9",
-    "image": "/images/activities/9.jpg",
+    "image": "/images/activities/9.webp",
     "title": "Khoảnh khắc hoạt động 09",
     "alt": "Hình ảnh hoạt động thực tế TCN 9"
   },
   {
     "id": "activity-10",
-    "image": "/images/activities/10.jpg",
+    "image": "/images/activities/10.webp",
     "title": "Khoảnh khắc hoạt động 10",
     "alt": "Hình ảnh hoạt động thực tế TCN 10"
   },
   {
     "id": "activity-11",
-    "image": "/images/activities/11.jpg",
+    "image": "/images/activities/11.webp",
     "title": "Khoảnh khắc hoạt động 11",
     "alt": "Hình ảnh hoạt động thực tế TCN 11"
   },
   {
     "id": "activity-12",
-    "image": "/images/activities/12.jpg",
+    "image": "/images/activities/12.webp",
     "title": "Khoảnh khắc hoạt động 12",
     "alt": "Hình ảnh hoạt động thực tế TCN 12"
   },
   {
     "id": "activity-13",
-    "image": "/images/activities/13.jpg",
+    "image": "/images/activities/13.webp",
     "title": "Khoảnh khắc hoạt động 13",
     "alt": "Hình ảnh hoạt động thực tế TCN 13"
   },
   {
     "id": "activity-14",
-    "image": "/images/activities/14.jpg",
+    "image": "/images/activities/14.webp",
     "title": "Khoảnh khắc hoạt động 14",
     "alt": "Hình ảnh hoạt động thực tế TCN 14"
   },
   {
     "id": "activity-15",
-    "image": "/images/activities/15.jpg",
+    "image": "/images/activities/15.webp",
     "title": "Khoảnh khắc hoạt động 15",
     "alt": "Hình ảnh hoạt động thực tế TCN 15"
   },
   {
     "id": "activity-16",
-    "image": "/images/activities/16.jpg",
+    "image": "/images/activities/16.webp",
     "title": "Khoảnh khắc hoạt động 16",
     "alt": "Hình ảnh hoạt động thực tế TCN 16"
+  },
+  {
+    "id": "activity-17",
+    "image": "/images/activities/17.webp",
+    "title": "Khoảnh khắc hoạt động 17",
+    "alt": "Người trình bày trước màn chiếu và các thành viên tham dự trong phòng hội thảo"
   }
 ];
 
 function ActivityVisual({ item, focal = false }: { item: ActivityItem; focal?: boolean }) {
   return item.image ? (
-    <Image src={item.image} alt={focal ? item.alt : ""} fill sizes={focal ? "(min-width: 1280px) 730px, (min-width: 1024px) 60vw, 100vw" : "(min-width: 1024px) 180px, 144px"} className="object-cover" />
+    <Image src={item.image} alt={focal ? item.alt : ""} fill sizes={focal ? "(min-width: 1280px) 715px, (min-width: 1024px) calc((100vw - 88px) * 0.6), (min-width: 640px) calc(100vw - 48px), calc(100vw - 32px)" : "(min-width: 1280px) 226px, (min-width: 1024px) calc((100vw - 88px) * 0.2 - 12px), 144px"} className="object-cover" />
   ) : (
     <div className="flex h-full flex-col items-center justify-center gap-3 bg-tcn-beige/50 px-4 text-center text-tcn-green-dark/60">
       <span aria-hidden="true" className={focal ? "font-heading text-4xl opacity-50" : "font-heading text-xl opacity-50"}>{item.id.replace("activity-", "0")}</span>
@@ -166,7 +172,7 @@ export default function ActivitySection() {
                 {activities.map((item, index) => (
                   <div key={item.id} aria-hidden={item.id !== activeId} className={`absolute inset-0 transition-opacity duration-500 motion-reduce:transition-none ${item.id === activeId ? "z-10 opacity-100" : "pointer-events-none opacity-0"}`}>
                     {item.image ? (
-                      <Image src={item.image} alt={item.alt} fill loading={item.id === activeId || index === (activeIndex + 1) % activities.length ? "eager" : "lazy"} sizes="(min-width: 1280px) 730px, (min-width: 1024px) 60vw, 100vw" className="object-cover" onLoad={() => setReadyImages((previous) => new Set(previous).add(item.id))} />
+                      <Image src={item.image} alt={item.alt} fill loading={item.id === activeId || index === (activeIndex + 1) % activities.length ? "eager" : "lazy"} sizes="(min-width: 1280px) 715px, (min-width: 1024px) calc((100vw - 88px) * 0.6), (min-width: 640px) calc(100vw - 48px), calc(100vw - 32px)" className="object-cover" onLoad={() => setReadyImages((previous) => new Set(previous).add(item.id))} />
                     ) : <ActivityVisual item={item} focal />}
                   </div>
                 ))}

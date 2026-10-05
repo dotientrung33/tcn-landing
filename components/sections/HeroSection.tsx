@@ -52,11 +52,11 @@ export default function HeroSection() {
         <div className="relative flex items-center justify-center">
           <div className="relative aspect-[4/3] w-full max-w-[560px] overflow-hidden rounded-[32px] bg-[#F3EFE5]">
             <Image
-              src="/images/hero/hero.png"
+              src="/images/hero/hero.webp"
               alt="Đội ngũ chuyên gia TCN"
               fill
-              priority
-              sizes="(min-width: 1280px) 560px, (min-width: 1024px) 44vw, 90vw"
+              preload
+              sizes="(min-width: 1280px) 487px, (min-width: 1024px) calc((100vw - 112px) * 5 / 12), (min-width: 608px) 560px, calc(100vw - 32px)"
               className="object-cover"
               style={{ objectPosition: "center center" }}
             />

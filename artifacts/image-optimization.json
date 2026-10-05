@@ -1,0 +1,448 @@
+{
+  "count": 44,
+  "before": 64397210,
+  "after": 6860890,
+  "savedPercent": 89.3459825355788,
+  "images": [
+    {
+      "source": "public/images/about/tcn-about.jpg",
+      "output": "public/images/about/tcn-about.webp",
+      "sourceWidth": 7728,
+      "sourceHeight": 5152,
+      "width": 1600,
+      "height": 1067,
+      "before": 22988963,
+      "after": 176496
+    },
+    {
+      "source": "public/images/activities/1.jpg",
+      "output": "public/images/activities/1.webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 2560,
+      "width": 1440,
+      "height": 1920,
+      "before": 1241416,
+      "after": 380610
+    },
+    {
+      "source": "public/images/activities/2.jpg",
+      "output": "public/images/activities/2.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1236616,
+      "after": 342312
+    },
+    {
+      "source": "public/images/activities/3.jpg",
+      "output": "public/images/activities/3.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1195580,
+      "after": 356616
+    },
+    {
+      "source": "public/images/activities/4.jpg",
+      "output": "public/images/activities/4.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 962205,
+      "after": 274400
+    },
+    {
+      "source": "public/images/activities/5.jpg",
+      "output": "public/images/activities/5.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1434412,
+      "after": 538664
+    },
+    {
+      "source": "public/images/activities/6.jpg",
+      "output": "public/images/activities/6.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1045640,
+      "after": 284770
+    },
+    {
+      "source": "public/images/activities/7.jpg",
+      "output": "public/images/activities/7.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1129369,
+      "after": 336650
+    },
+    {
+      "source": "public/images/activities/8.jpg",
+      "output": "public/images/activities/8.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1719920,
+      "after": 579078
+    },
+    {
+      "source": "public/images/activities/9.jpg",
+      "output": "public/images/activities/9.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 1089350,
+      "after": 340854
+    },
+    {
+      "source": "public/images/activities/10.jpg",
+      "output": "public/images/activities/10.webp",
+      "sourceWidth": 2048,
+      "sourceHeight": 1536,
+      "width": 1920,
+      "height": 1440,
+      "before": 814040,
+      "after": 276666
+    },
+    {
+      "source": "public/images/activities/11.jpg",
+      "output": "public/images/activities/11.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 924799,
+      "after": 264802
+    },
+    {
+      "source": "public/images/activities/12.jpg",
+      "output": "public/images/activities/12.webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 2560,
+      "width": 1440,
+      "height": 1920,
+      "before": 910155,
+      "after": 279596
+    },
+    {
+      "source": "public/images/activities/13.jpg",
+      "output": "public/images/activities/13.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1707,
+      "width": 1920,
+      "height": 1280,
+      "before": 1431041,
+      "after": 318080
+    },
+    {
+      "source": "public/images/activities/14.jpg",
+      "output": "public/images/activities/14.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1920,
+      "height": 1440,
+      "before": 922244,
+      "after": 218962
+    },
+    {
+      "source": "public/images/activities/15.jpg",
+      "output": "public/images/activities/15.webp",
+      "sourceWidth": 1276,
+      "sourceHeight": 956,
+      "width": 1276,
+      "height": 956,
+      "before": 601255,
+      "after": 310224
+    },
+    {
+      "source": "public/images/activities/16.jpg",
+      "output": "public/images/activities/16.webp",
+      "sourceWidth": 960,
+      "sourceHeight": 1280,
+      "width": 960,
+      "height": 1280,
+      "before": 493392,
+      "after": 236390
+    },
+    {
+      "source": "public/images/activities/17.jpg",
+      "output": "public/images/activities/17.webp",
+      "sourceWidth": 1341,
+      "sourceHeight": 894,
+      "width": 1341,
+      "height": 894,
+      "before": 205892,
+      "after": 108302
+    },
+    {
+      "source": "public/images/community/tram-binh-an.jpg",
+      "output": "public/images/community/tram-binh-an.webp",
+      "sourceWidth": 2560,
+      "sourceHeight": 1920,
+      "width": 1200,
+      "height": 900,
+      "before": 1249950,
+      "after": 160236
+    },
+    {
+      "source": "public/images/community/dong-hanh-cung-con.jpg",
+      "output": "public/images/community/dong-hanh-cung-con.webp",
+      "sourceWidth": 6000,
+      "sourceHeight": 4000,
+      "width": 1200,
+      "height": 800,
+      "before": 12444110,
+      "after": 135882
+    },
+    {
+      "source": "public/images/community/so-hoc-ung-dung (2).webp",
+      "output": "public/images/community/so-hoc-ung-dung (2).optimized.webp",
+      "sourceWidth": 1920,
+      "sourceHeight": 1280,
+      "width": 1200,
+      "height": 800,
+      "before": 284194,
+      "after": 105446
+    },
+    {
+      "source": "public/images/experts/do-tien-trung.jpg",
+      "output": "public/images/experts/do-tien-trung.webp",
+      "sourceWidth": 642,
+      "sourceHeight": 670,
+      "width": 642,
+      "height": 670,
+      "before": 40835,
+      "after": 18766
+    },
+    {
+      "source": "public/images/experts/tran-quynh-chi.jpg",
+      "output": "public/images/experts/tran-quynh-chi.webp",
+      "sourceWidth": 642,
+      "sourceHeight": 610,
+      "width": 642,
+      "height": 610,
+      "before": 36060,
+      "after": 15416
+    },
+    {
+      "source": "public/images/experts/phuong-thao.jpg",
+      "output": "public/images/experts/phuong-thao.webp",
+      "sourceWidth": 642,
+      "sourceHeight": 670,
+      "width": 642,
+      "height": 670,
+      "before": 45850,
+      "after": 21006
+    },
+    {
+      "source": "public/images/experts/network/ha-thi-huong.jpg",
+      "output": "public/images/experts/network/ha-thi-huong.webp",
+      "sourceWidth": 853,
+      "sourceHeight": 802,
+      "width": 320,
+      "height": 301,
+      "before": 105395,
+      "after": 15164
+    },
+    {
+      "source": "public/images/experts/network/hoa-bong.jpg",
+      "output": "public/images/experts/network/hoa-bong.webp",
+      "sourceWidth": 459,
+      "sourceHeight": 505,
+      "width": 320,
+      "height": 352,
+      "before": 46637,
+      "after": 14630
+    },
+    {
+      "source": "public/images/experts/network/khanh-chi.jpg",
+      "output": "public/images/experts/network/khanh-chi.webp",
+      "sourceWidth": 505,
+      "sourceHeight": 492,
+      "width": 320,
+      "height": 312,
+      "before": 107858,
+      "after": 37660
+    },
+    {
+      "source": "public/images/experts/network/le-thanh-huyen.jpg",
+      "output": "public/images/experts/network/le-thanh-huyen.webp",
+      "sourceWidth": 578,
+      "sourceHeight": 518,
+      "width": 320,
+      "height": 287,
+      "before": 61658,
+      "after": 13408
+    },
+    {
+      "source": "public/images/experts/network/mai-ha-linh.jpg",
+      "output": "public/images/experts/network/mai-ha-linh.webp",
+      "sourceWidth": 851,
+      "sourceHeight": 852,
+      "width": 320,
+      "height": 320,
+      "before": 114237,
+      "after": 11412
+    },
+    {
+      "source": "public/images/experts/network/thu-huong.jpg",
+      "output": "public/images/experts/network/thu-huong.webp",
+      "sourceWidth": 1052,
+      "sourceHeight": 844,
+      "width": 320,
+      "height": 257,
+      "before": 152038,
+      "after": 13366
+    },
+    {
+      "source": "public/images/experts/network/tran-hong-nhung.jpg",
+      "output": "public/images/experts/network/tran-hong-nhung.webp",
+      "sourceWidth": 849,
+      "sourceHeight": 851,
+      "width": 320,
+      "height": 321,
+      "before": 114917,
+      "after": 13292
+    },
+    {
+      "source": "public/images/experts/network/vu-thi-hien.jpg",
+      "output": "public/images/experts/network/vu-thi-hien.webp",
+      "sourceWidth": 710,
+      "sourceHeight": 658,
+      "width": 320,
+      "height": 297,
+      "before": 83803,
+      "after": 17184
+    },
+    {
+      "source": "public/images/hero/hero.png",
+      "output": "public/images/hero/hero.webp",
+      "sourceWidth": 1448,
+      "sourceHeight": 1086,
+      "width": 1280,
+      "height": 960,
+      "before": 1620007,
+      "after": 255458
+    },
+    {
+      "source": "public/images/maps/map-for-success.jpg",
+      "output": "public/images/maps/map-for-success.webp",
+      "sourceWidth": 1047,
+      "sourceHeight": 1502,
+      "width": 480,
+      "height": 689,
+      "before": 1602928,
+      "after": 42706
+    },
+    {
+      "source": "public/images/maps/relationship-map.jpg",
+      "output": "public/images/maps/relationship-map.webp",
+      "sourceWidth": 1056,
+      "sourceHeight": 1489,
+      "width": 480,
+      "height": 677,
+      "before": 1497168,
+      "after": 41636
+    },
+    {
+      "source": "public/images/maps/career-map.jpg",
+      "output": "public/images/maps/career-map.webp",
+      "sourceWidth": 1053,
+      "sourceHeight": 1494,
+      "width": 480,
+      "height": 681,
+      "before": 1818010,
+      "after": 55866
+    },
+    {
+      "source": "public/images/maps/kid-talent-map.jpg",
+      "output": "public/images/maps/kid-talent-map.webp",
+      "sourceWidth": 1053,
+      "sourceHeight": 1494,
+      "width": 480,
+      "height": 681,
+      "before": 1607333,
+      "after": 47334
+    },
+    {
+      "source": "public/images/testimonials/khanh-chi.jpg",
+      "output": "public/images/testimonials/khanh-chi.webp",
+      "sourceWidth": 1405,
+      "sourceHeight": 1405,
+      "width": 480,
+      "height": 480,
+      "before": 120525,
+      "after": 26430
+    },
+    {
+      "source": "public/images/testimonials/nguyen-thu-ha.jpg",
+      "output": "public/images/testimonials/nguyen-thu-ha.webp",
+      "sourceWidth": 960,
+      "sourceHeight": 960,
+      "width": 480,
+      "height": 480,
+      "before": 57719,
+      "after": 28526
+    },
+    {
+      "source": "public/images/testimonials/vu-loan.jpg",
+      "output": "public/images/testimonials/vu-loan.webp",
+      "sourceWidth": 906,
+      "sourceHeight": 960,
+      "width": 480,
+      "height": 509,
+      "before": 69972,
+      "after": 29132
+    },
+    {
+      "source": "public/images/testimonials/jennifer-pham.jpg",
+      "output": "public/images/testimonials/jennifer-pham.webp",
+      "sourceWidth": 1193,
+      "sourceHeight": 1173,
+      "width": 480,
+      "height": 472,
+      "before": 246733,
+      "after": 37824
+    },
+    {
+      "source": "public/images/testimonials/mai-phan.jpg",
+      "output": "public/images/testimonials/mai-phan.webp",
+      "sourceWidth": 1102,
+      "sourceHeight": 1057,
+      "width": 480,
+      "height": 460,
+      "before": 200677,
+      "after": 35986
+    },
+    {
+      "source": "public/images/testimonials/le-kieu-nhung.jpg",
+      "output": "public/images/testimonials/le-kieu-nhung.webp",
+      "sourceWidth": 935,
+      "sourceHeight": 891,
+      "width": 480,
+      "height": 457,
+      "before": 138117,
+      "after": 30184
+    },
+    {
+      "source": "public/images/testimonials/tra-my.jpg",
+      "output": "public/images/testimonials/tra-my.webp",
+      "sourceWidth": 1500,
+      "sourceHeight": 1510,
+      "width": 480,
+      "height": 483,
+      "before": 184190,
+      "after": 13468
+    }
+  ]
+}

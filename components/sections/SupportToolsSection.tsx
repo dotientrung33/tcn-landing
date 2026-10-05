@@ -16,7 +16,7 @@ const supportTools = [
       "Bài học & thách thức",
       "Định hướng phát triển",
     ],
-    image: "/images/maps/map-for-success.jpg",
+    image: "/images/maps/map-for-success.webp",
   },
   {
     name: "Relationship Map",
@@ -30,7 +30,7 @@ const supportTools = [
       "Điểm dễ xung đột",
       "Khả năng kết nối",
     ],
-    image: "/images/maps/relationship-map.jpg",
+    image: "/images/maps/relationship-map.webp",
   },
   {
     name: "Career Map",
@@ -44,7 +44,7 @@ const supportTools = [
       "Hiệu suất làm việc",
       "Định hướng phát triển",
     ],
-    image: "/images/maps/career-map.jpg",
+    image: "/images/maps/career-map.webp",
   },
   {
     name: "Kid Talent Map",
@@ -58,7 +58,7 @@ const supportTools = [
       "Nhu cầu phát triển",
       "Cách cha mẹ đồng hành",
     ],
-    image: "/images/maps/kid-talent-map.jpg",
+    image: "/images/maps/kid-talent-map.webp",
   },
 ];
 
